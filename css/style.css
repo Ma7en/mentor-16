@@ -1,0 +1,117 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color: red;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 800px;
+    }
+
+}
+
+
+
+/* start  */
+.ment .container .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 55px 0 55px;
+}
+
+
+/* start cont */
+.ment .container .card .cont {
+    padding: 50px 35px 40px;
+}
+
+.ment .container .card .c-1,
+.ment .container .card .c-2,
+.ment .container .card .c-3 {
+    flex-basis: calc(100% / 3);
+}
+
+.ment .container .card .c-1 {
+    background-color: #e38826;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.ment .container .card .c-2 {
+    background-color: #006970;
+}
+
+.ment .container .card .c-3 {
+    background-color: #004241;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* start img */
+.ment .container .card .cont .img {
+    margin-bottom: 20px;
+}
+
+
+/* start name */
+.ment .container .card .cont .name {
+    margin-bottom: 100px;
+}
+
+
+.ment .container .card .cont .name h2 {
+    margin: 20px 0 30px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+
+.ment .container .card .cont .name p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.6;
+    /* padding-right: 50px; */
+}
+
+
+/* start more */
+.ment .container .card .cont .more {
+    width: fit-content;
+    padding: 10px 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.ment .container .card .cont .more a {
+    color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+

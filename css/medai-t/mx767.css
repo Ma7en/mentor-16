@@ -1,0 +1,55 @@
+
+@media (max-width: 767px) {
+    /* .ment .container {
+        width: 375px;
+    } */
+
+    .ment .container .card {
+        display: flex;
+        flex-direction: column
+    }
+
+    /* start cared */
+    .ment .container .card .cont {
+        flex-basis: 100%;
+        padding: 50px 60px 40px 40px;
+    }
+
+    .ment .container .card .c-1 {
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .ment .container .card .c-3 {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+
+    /* start name */
+    .ment .container .card .cont .name {
+        margin-bottom: 20px;
+    }
+
+
+    /* start more */
+    .ment .container .card .cont .more {
+        background-color: #f2f2f2;
+    }
+
+    .ment .container .card .c-1 .more a {
+        color: #e38826;
+    }
+
+    .ment .container .card .c-2 .more a {
+        color: #006970;
+    }
+
+    .ment .container .card .c-3 .more a {
+        color: #004241;
+    }
+
+}
+
